@@ -113,10 +113,15 @@ temp/
 *.zip
 *.rar
 
-# Documentation and text files (except README.md)
+# Documentation and text files (except specific ones)
 *.md
 *.txt
 !README.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+!SECURITY.md
+!LICENSE
+!.github/**/*.md
 
 # Media files
 *.mp4
