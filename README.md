@@ -1,4 +1,4 @@
-# Zoom Project 🎥
+# Nova Meet 🎥
 
 A modern video conferencing application built with cutting-edge web technologies, providing seamless video calling, screen sharing, and real-time communication capabilities.
 
@@ -15,7 +15,7 @@ A modern video conferencing application built with cutting-edge web technologies
 ## 🏗️ Project Structure
 
 ```
-zoom-project/
+nova-meet/
 ├── backend/           # Server-side application
 ├── client/           # Frontend web application
 │   └── src/         # Source code for the client
@@ -61,8 +61,8 @@ Before running this project, make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/zoom-project.git
-cd zoom-project
+git clone https://github.com/thatamjad/Nova-Meet.git
+cd Nova-Meet
 ```
 
 ### 2. Install Dependencies
@@ -87,7 +87,7 @@ Create `.env` files in both backend and client directories:
 ```env
 NODE_ENV=development
 PORT=3001
-DATABASE_URL=mongodb://localhost:27017/zoom-project
+DATABASE_URL=mongodb://localhost:27017/nova-meet
 JWT_SECRET=your-jwt-secret-key
 SOCKET_PORT=3002
 ```
@@ -105,7 +105,7 @@ REACT_APP_SOCKET_URL=http://localhost:3002
 mongod --dbpath /path/to/your/db
 
 # If using PostgreSQL
-createdb zoom_project
+createdb nova_meet
 ```
 
 ### 5. Start the Application
@@ -193,10 +193,10 @@ npm run test:all
 1. **Build Docker Images**
 ```bash
 # Build backend image
-cd backend && docker build -t zoom-backend .
+cd backend && docker build -t nova-meet-backend .
 
 # Build frontend image
-cd client && docker build -t zoom-client .
+cd client && docker build -t nova-meet-client .
 ```
 
 2. **Run with Docker Compose**
@@ -216,7 +216,7 @@ docker-compose up -d
 ```bash
 # Backend
 cd backend
-heroku create zoom-backend
+heroku create nova-meet-backend
 git push heroku main
 
 # Frontend
@@ -324,9 +324,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 
-- **Email**: support@zoom-project.com
+- **Email**: support@nova-meet.com
 - **Discord**: [Discord Server Link]
-- **Issues**: [GitHub Issues](https://github.com/your-username/zoom-project/issues)
+- **Issues**: [GitHub Issues](https://github.com/thatamjad/Nova-Meet/issues)
 
 ## 🙏 Acknowledgments
 
@@ -336,4 +336,4 @@ For support and questions:
 
 ---
 
-**Made with ❤️ by the Zoom Project Team**
+**Made with ❤️ by the Nova Meet Team**
